@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Fronted_01"
+        tools:targetApi="31"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".Perfil_paciente"
+            android:exported="false" />
+        <activity
+            android:name=".Recuperar_cuenta"
+            android:exported="false" />
+        <activity
+            android:name=".Registro"
+            android:exported="false" />
+        <activity
+            android:name=".Login4"
+            android:exported="false" />
+        <activity
+            android:name=".Login3"
+            android:exported="false" />
+        <activity
+            android:name=".Doctor_busqueda"
+            android:exported="false" />
+        <activity
+            android:name=".Doctor_detalle"
+            android:exported="false" />
+        <activity
+            android:name=".Especialidad_busqueda"
+            android:exported="false" />
+        <activity
+            android:name=".Especialidad_detalle"
+            android:exported="false" />
+        <activity
+            android:name=".Especialidad_doctor"
+            android:exported="false" />
+        <activity
+            android:name=".Reserva1"
+            android:exported="false" />
+        <activity
+            android:name=".Reserva2"
+            android:exported="false" />
+        <activity
+            android:name=".Reserva3"
+            android:exported="false" />
+        <activity
+            android:name=".Fecha1"
+            android:exported="false" />
+        <activity
+            android:name=".Fecha2"
+            android:exported="false" />
+        <activity
+            android:name=".Pago"
+            android:exported="false" />
+        <activity
+            android:name=".Pago_exitoso"
+            android:exported="false" />
+        <activity
+            android:name=".Resumen"
+            android:exported="false" />
+        <activity
+            android:name=".Login2"
+            android:exported="false" />
+        <activity
+            android:name=".Login1"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.fronted_01.Menu_principal" />
+    </application>
+
+</manifest>
